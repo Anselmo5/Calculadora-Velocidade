@@ -1,0 +1,70 @@
+
+.tudo{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 150px;
+}
+.Apresentação{
+display: flex;
+background-color: wheat;
+border: 2px solid orange;
+border-radius: 8px;
+width: 400px;
+height: 230px;
+padding: 10px;
+
+}
+
+.Apresentação h1{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-top: 35px;
+}
+
+.eu{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border-radius: 50%;
+    display: flex;
+    border: 2px solid orangered;
+    overflow: hidden;
+}
+
+
+.espaçamento{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin:  -350px auto;
+}
+
+.pass{
+    background-color: orange;
+    height: 100px;
+    
+}
+
+*{
+    margin: 0%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.btn button{
+    height: 40px;
+    width: 80px;
+    border: 2px solid rgb(85, 81, 81);
+    margin-top: 30px;
+    border-radius: 8px;
+    right: 70px;
+}
